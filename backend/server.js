@@ -7,6 +7,7 @@ import authRoute from './routes/AuthRoute.js'
 import chatRoute from './routes/ChatRoute.js'
 import messageRoute from './routes/MessageRoute.js'
 import userRoute from './routes/UserRoute.js'
+import ProuductRoute from './routes/ProuductRoute.js'
 
 dotenv.config();
 const app = express();
@@ -23,6 +24,7 @@ app.use("/api/auth", authRoute);
 app.use("/api/chats", chatRoute);
 app.use("/api/messages", messageRoute);
 app.use("/api/users", userRoute);
+app.use("/api/products", ProuductRoute);
 
 
 

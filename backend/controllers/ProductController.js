@@ -1,6 +1,6 @@
 const { createProduct } = require('../utils/functions');
 
-async function addProduct(req, res) {
+export async function addProduct(req, res) {
   try {
     const productData = req.body;
     
@@ -21,7 +21,7 @@ async function addProduct(req, res) {
   }
 }
 
-async function exampleCreateCarProduct(userId, categoryId) {
+export async function exampleCreateCarProduct(userId, categoryId) {
   try {
     const carProductData = {
       title: '2018 Toyota Camry XLE',
@@ -60,7 +60,7 @@ async function exampleCreateCarProduct(userId, categoryId) {
   }
 }
 
-async function exampleCreatePhoneProduct(userId, categoryId) {
+export async function exampleCreatePhoneProduct(userId, categoryId) {
   try {
     const phoneProductData = {
       title: 'iPhone 13 Pro - 128GB - Silver',
