@@ -1,10 +1,11 @@
-const { createProduct } = require('../utils/functions');
+// const { createProduct } = require('../utils/functions');
+import {createProduct,initializeBasicCategories} from '../utils/functions.js'
 
 export async function addProduct(req, res) {
   try {
     const productData = req.body;
     
-    productData.seller = req.user.id; 
+    productData.seller = req.userId; 
     
     const product = await createProduct(productData);
     
@@ -20,6 +21,7 @@ export async function addProduct(req, res) {
     });
   }
 }
+
 
 export async function exampleCreateCarProduct(userId, categoryId) {
   try {

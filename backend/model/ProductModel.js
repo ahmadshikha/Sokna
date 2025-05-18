@@ -1,4 +1,5 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
+
 const Schema = mongoose.Schema;
 
 const ProductSchema = new Schema({
@@ -31,7 +32,7 @@ const ProductSchema = new Schema({
     ref: 'Category',
     required: true
   },
-  // Dynamic attributes based on category
+ 
   attributes: {
     type: Schema.Types.Mixed,
     default: {}
@@ -67,4 +68,5 @@ const ProductSchema = new Schema({
 
 
 
-module.exports = mongoose.model('Product', ProductSchema);
+const Product = mongoose.model('Product', ProductSchema);
+export default Product

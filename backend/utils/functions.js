@@ -1,13 +1,14 @@
-const Product = require('../models/product');
-const Category = require('../models/category');
-
+// const Product = require('../models/product');
+// const Category = require('../models/category');
+import Product from '../model/ProductModel.js'
+import Category from '../model/CategoryModel.js'
 /**
  * Creates a new product after validating attributes against category definition
  * 
  * @param {Object} productData - Product data including category and attributes
  * @returns {Promise<Object>} Created product
  */
-async function createProduct(productData) {
+export async function createProduct(productData) {
   try {
     // Extract category from product data
     const { category: categoryId, attributes = {} } = productData;
@@ -98,10 +99,10 @@ function validateAttributes(attributes, attributeDefinitions) {
   return errors;
 }
 
-module.exports = { createProduct };
+// module.exports = { createProduct };
 
 // Example of initializing categories
-async function initializeBasicCategories() {
+export async function initializeBasicCategories() {
   try {
     // Check if categories already exist
     const count = await Category.countDocuments();
