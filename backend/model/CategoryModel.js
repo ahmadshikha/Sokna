@@ -9,8 +9,20 @@ const CategorySchema = new Schema({
     trim: true,
     unique: true
   },
+  icon: {
+    type: String,
+    default: '📦'
+  },
+  parent: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Category',
+    default: null
+  },
+  level: {
+    type: Number,
+    default: 0
+  },
   attributeDefinitions: [{
-    
     name: {
       type: String,
       required: true
@@ -34,6 +46,15 @@ const CategorySchema = new Schema({
   timestamps: true
 });
 
+CategorySchema.virtual('subcategories', {
+  ref: 'Category',
+  localField: '_id',
+  foreignField: 'parent'
+});
 
-const Category= mongoose.model('Category', CategorySchema);
+CategorySchema.methods.isSubcategory = function() {
+  return this.parent !== null;
+};
+
+const Category = mongoose.model('Category', CategorySchema);
 export default Category
