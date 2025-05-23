@@ -10,6 +10,9 @@ const userSchema = new mongoose.Schema({
       enum: ['admin', 'seller', 'buyer'], 
       default: 'buyer' 
     },
+    posts: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Product' }],
+    savedPosts: [{ type: mongoose.Schema.Types.ObjectId, ref: 'SavedPost' }],
+    chatIDs: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Chat' }],
     createdAt: { type: Date, default: Date.now }
   });
 

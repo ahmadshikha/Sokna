@@ -12,6 +12,9 @@ const ProductSchema = new Schema({
     type: String,
     required: true
   },
+  userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  savedPosts: [{ type: mongoose.Schema.Types.ObjectId, ref: 'SavedPost' }],
+    
   price: {
     type: Number,
     required: true,

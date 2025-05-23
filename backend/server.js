@@ -8,6 +8,7 @@ import chatRoute from './routes/ChatRoute.js'
 import messageRoute from './routes/MessageRoute.js'
 import userRoute from './routes/UserRoute.js'
 import ProuductRoute from './routes/ProuductRoute.js'
+import SavedRoute from './routes/SavedRoute.js'
 
 dotenv.config();
 const app = express();
@@ -25,6 +26,7 @@ app.use("/api/chats", chatRoute);
 app.use("/api/messages", messageRoute);
 app.use("/api/users", userRoute);
 app.use("/api/products", ProuductRoute);
+app.use("/api/saved", SavedRoute);
 
 
 
