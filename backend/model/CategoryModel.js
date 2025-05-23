@@ -10,6 +10,7 @@ const CategorySchema = new Schema({
     unique: true
   },
   attributeDefinitions: [{
+    
     name: {
       type: String,
       required: true
@@ -27,12 +28,11 @@ const CategorySchema = new Schema({
       type: Boolean,
       default: false
     },
-    options: [Schema.Types.Mixed] // For predefined options (e.g., dropdown choices)
+    options: [Schema.Types.Mixed]
   }]
 }, {
   timestamps: true
 });
-
 
 
 const Category= mongoose.model('Category', CategorySchema);
