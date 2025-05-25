@@ -17,7 +17,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-2xl mx-auto">
-              The most trusted marketplace in Egypt. Buy, sell, and discover amazing deals near you.
+              The most trusted marketplace in Syria. Buy, sell, and discover amazing deals near you.
             </p>
           </div>
           
@@ -55,7 +55,7 @@ const Hero = () => {
                 <Star className="h-6 w-6 text-white" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Trusted Platform</h3>
-              <p className="text-blue-100 text-sm">Buy and sell with confidence on Egypt's most trusted marketplace</p>
+              <p className="text-blue-100 text-sm">Buy and sell with confidence on Syria most trusted marketplace</p>
             </div>
           </div>
         </div>

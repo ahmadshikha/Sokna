@@ -42,14 +42,14 @@ const SearchSection = () => {
             <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
             <Select value={selectedLocation} onValueChange={setSelectedLocation}>
               <SelectTrigger className="pl-10 h-12 border-gray-200 focus:border-blue-500 rounded-xl">
-                <SelectValue placeholder="All Egypt" />
+                <SelectValue placeholder="All Syria" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="cairo">Cairo</SelectItem>
-                <SelectItem value="alexandria">Alexandria</SelectItem>
-                <SelectItem value="giza">Giza</SelectItem>
-                <SelectItem value="sharm">Sharm El Sheikh</SelectItem>
-                <SelectItem value="hurghada">Hurghada</SelectItem>
+                <SelectItem value="cairo">Damascus</SelectItem>
+                <SelectItem value="alexandria">Aleppo</SelectItem>
+                <SelectItem value="giza">Homs</SelectItem>
+                <SelectItem value="sharm">Latakia</SelectItem>
+                <SelectItem value="hurghada">Hama</SelectItem>
               </SelectContent>
             </Select>
           </div>

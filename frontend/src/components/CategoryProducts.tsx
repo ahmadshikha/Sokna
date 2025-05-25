@@ -12,7 +12,7 @@ const mockProductsByCategory = {
       id: 1,
       title: "Honda Civic 2020 - Excellent Condition",
       price: "320,000",
-      location: "New Cairo, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400",
       condition: "Used - Excellent",
       date: "2 days ago"
@@ -21,7 +21,7 @@ const mockProductsByCategory = {
       id: 2,
       title: "Toyota Corolla 2019",
       price: "280,000",
-      location: "Maadi, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=400",
       condition: "Used - Good",
       date: "1 day ago"
@@ -30,7 +30,7 @@ const mockProductsByCategory = {
       id: 3,
       title: "BMW X3 2021",
       price: "650,000",
-      location: "Zamalek, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400",
       condition: "Used - Excellent",
       date: "3 hours ago"
@@ -39,7 +39,7 @@ const mockProductsByCategory = {
       id: 4,
       title: "Mercedes C-Class 2018",
       price: "450,000",
-      location: "Heliopolis, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1563720223185-11003d516935?w=400",
       condition: "Used - Good",
       date: "5 hours ago"
@@ -48,7 +48,7 @@ const mockProductsByCategory = {
       id: 5,
       title: "Nissan Altima 2020",
       price: "290,000",
-      location: "Giza",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=400",
       condition: "Used - Excellent",
       date: "1 day ago"
@@ -59,7 +59,7 @@ const mockProductsByCategory = {
       id: 6,
       title: "Modern Apartment for Rent",
       price: "8,000/month",
-      location: "Maadi, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400",
       condition: "Furnished",
       date: "1 day ago"
@@ -68,7 +68,7 @@ const mockProductsByCategory = {
       id: 7,
       title: "Villa for Sale in New Cairo",
       price: "2,500,000",
-      location: "New Cairo, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400",
       condition: "New",
       date: "2 days ago"
@@ -77,7 +77,7 @@ const mockProductsByCategory = {
       id: 8,
       title: "Studio Apartment",
       price: "4,500/month",
-      location: "Zamalek, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=400",
       condition: "Furnished",
       date: "3 days ago"
@@ -86,7 +86,7 @@ const mockProductsByCategory = {
       id: 9,
       title: "Commercial Office Space",
       price: "15,000/month",
-      location: "Downtown, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400",
       condition: "Unfurnished",
       date: "4 hours ago"
@@ -95,7 +95,7 @@ const mockProductsByCategory = {
       id: 10,
       title: "Penthouse with Nile View",
       price: "25,000/month",
-      location: "Garden City, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=400",
       condition: "Luxury",
       date: "6 hours ago"
@@ -106,7 +106,7 @@ const mockProductsByCategory = {
       id: 11,
       title: "iPhone 14 Pro Max 256GB",
       price: "45,000",
-      location: "Maadi, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=400",
       condition: "Used - Good",
       date: "1 day ago"
@@ -115,7 +115,7 @@ const mockProductsByCategory = {
       id: 12,
       title: "Gaming Laptop RTX 4070",
       price: "35,000",
-      location: "Alexandria",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400",
       condition: "Used - Excellent",
       date: "3 hours ago"
@@ -124,7 +124,7 @@ const mockProductsByCategory = {
       id: 13,
       title: "Samsung 65\" 4K Smart TV",
       price: "18,000",
-      location: "Giza",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400",
       condition: "Used - Good",
       date: "2 days ago"
@@ -133,7 +133,7 @@ const mockProductsByCategory = {
       id: 14,
       title: "iPad Air 2022",
       price: "22,000",
-      location: "New Cairo, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
       condition: "Used - Excellent",
       date: "5 hours ago"
@@ -142,7 +142,7 @@ const mockProductsByCategory = {
       id: 15,
       title: "Canon DSLR Camera",
       price: "12,500",
-      location: "Heliopolis, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400",
       condition: "Used - Good",
       date: "1 day ago"
@@ -153,7 +153,7 @@ const mockProductsByCategory = {
       id: 16,
       title: "Modern Sofa Set - 3+2+1",
       price: "12,500",
-      location: "Heliopolis, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400",
       condition: "Used - Excellent",
       date: "3 days ago"
@@ -162,7 +162,7 @@ const mockProductsByCategory = {
       id: 17,
       title: "Dining Table with 6 Chairs",
       price: "8,000",
-      location: "Maadi, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?w=400",
       condition: "Used - Good",
       date: "2 days ago"
@@ -171,7 +171,7 @@ const mockProductsByCategory = {
       id: 18,
       title: "King Size Bed with Mattress",
       price: "6,500",
-      location: "New Cairo, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400",
       condition: "Used - Excellent",
       date: "1 day ago"
@@ -180,7 +180,7 @@ const mockProductsByCategory = {
       id: 19,
       title: "Office Desk Setup",
       price: "4,200",
-      location: "Zamalek, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1541558869434-2840d308329a?w=400",
       condition: "Used - Good",
       date: "4 hours ago"
@@ -189,7 +189,7 @@ const mockProductsByCategory = {
       id: 20,
       title: "Wardrobe 3 Doors",
       price: "5,800",
-      location: "Giza",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400",
       condition: "Used - Excellent",
       date: "6 hours ago"
@@ -200,7 +200,7 @@ const mockProductsByCategory = {
       id: 21,
       title: "Nike Air Jordan Sneakers",
       price: "3,500",
-      location: "Giza",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
       condition: "Used - Good",
       date: "4 hours ago"
@@ -209,7 +209,7 @@ const mockProductsByCategory = {
       id: 22,
       title: "Designer Leather Jacket",
       price: "2,800",
-      location: "Zamalek, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400",
       condition: "Used - Excellent",
       date: "1 day ago"
@@ -218,7 +218,7 @@ const mockProductsByCategory = {
       id: 23,
       title: "Vintage Rolex Watch",
       price: "15,000",
-      location: "Maadi, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400",
       condition: "Used - Good",
       date: "2 days ago"
@@ -227,7 +227,7 @@ const mockProductsByCategory = {
       id: 24,
       title: "Summer Dress Collection",
       price: "800",
-      location: "New Cairo, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400",
       condition: "Used - Excellent",
       date: "3 days ago"
@@ -236,7 +236,7 @@ const mockProductsByCategory = {
       id: 25,
       title: "Designer Handbag",
       price: "4,200",
-      location: "Heliopolis, Cairo",
+      location: "Damascus",
       image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400",
       condition: "Used - Good",
       date: "5 hours ago"
@@ -246,7 +246,7 @@ const mockProductsByCategory = {
 
 const categories = [
   { key: 'vehicles', name: 'Vehicles', icon: '🚗' },
-  { key: 'property', name: 'Property', icon: '🏠' },
+  { key: 'property', name: 'Houses', icon: '🏠' },
   { key: 'electronics', name: 'Electronics', icon: '📱' },
   { key: 'furniture', name: 'Furniture', icon: '🛋️' },
   { key: 'fashion', name: 'Fashion', icon: '👕' }

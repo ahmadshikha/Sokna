@@ -51,7 +51,7 @@ const Navbar = () => {
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-1">
                 <MapPin className="h-4 w-4" />
-                <span>Egypt</span>
+                <span>Syria</span>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -68,10 +68,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">MH</span>
+            <div className="w-24 h-24 rounded-lg flex items-center justify-center">
+              <img src="../../public/logo.png" alt="" />
             </div>
-            <span className="text-xl font-bold text-gray-900">MarketHub</span>
+            {/* <span className="text-xl font-bold text-gray-900">Sokna</span> */}
           </Link>
 
           {/* Search bar - Desktop */}

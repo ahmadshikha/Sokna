@@ -141,7 +141,7 @@ async function createCategoryWithSubcategories(categoryData, subcategories = [],
 }
 
 // Initialize all categories and subcategories
-export async function initializeBasicCategories() {
+export async function initializeBasicCategories(req,res) {
   try {
     // Check if categories already exist
     const count = await Category.countDocuments();
@@ -355,6 +355,8 @@ export async function initializeBasicCategories() {
     }
     
     console.log('All categories and subcategories initialized successfully');
+    return res.status(400).json({ message: "All categories and subcategories initialized successfully" });
+
   } catch (error) {
     console.error('Error initializing categories:', error);
     throw error;
